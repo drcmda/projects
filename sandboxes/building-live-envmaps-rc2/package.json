@@ -1,0 +1,31 @@
+{
+  "name": "building-live-envmaps-rc2",
+  "version": "1.0.0",
+  "description": "Shows how to build declarative environment that are live and animated.",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@pmndrs/branding": "0.0.8",
+    "@react-three/drei": "8.19.2",
+    "@react-three/fiber": "8.0.0-beta.5",
+    "@types/three": "0.138.0",
+    "lamina": "1.0.6",
+    "react": "18.0.0-rc.3",
+    "react-dom": "18.0.0-rc.3",
+    "react-scripts": "5.0.0",
+    "three": "0.138.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

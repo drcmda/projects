@@ -1,0 +1,18 @@
+{
+  "react-scripts": "4.0.3",
+  "dependencies": {
+    "@react-three/drei": "9.4.3",
+    "@react-three/fiber": "8.0.11",
+    "@types/three": "0.139.0",
+    "leva": "0.9.23",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-scripts": "5.0.1",
+    "three": "0.139.2"
+  },
+  "keywords": [
+    "instances"
+  ],
+  "name": "floating-instanced-shoes",
+  "description": "Using drei/instances and events."
+}

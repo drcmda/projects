@@ -1,0 +1,32 @@
+{
+  "name": "scrollcontrols-gltf",
+  "version": "1.0.0",
+  "description": "Connecting models with useScroll",
+  "keywords": [
+    "gltf",
+    "scrollcontrols"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@react-three/drei": "7.17.1",
+    "@react-three/fiber": "7.0.17",
+    "@types/three": "0.133.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "4.0.3",
+    "three": "0.133.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

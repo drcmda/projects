@@ -1,0 +1,35 @@
+{
+  "name": "ssr-rover",
+  "version": "1.0.0",
+  "description": "Screen space reflections",
+  "keywords": [
+    "postprocessing",
+    "ssr"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@react-three/drei": "9.14.3",
+    "@react-three/fiber": "8.0.27",
+    "@react-three/postprocessing": "2.5.5",
+    "@types/three": "0.141.0",
+    "leva": "0.9.28",
+    "react": "18.2.0",
+    "react-dom": "18.0.0",
+    "react-scripts": "5.0.1",
+    "three": "0.142.0",
+    "three-mesh-bvh": "0.5.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

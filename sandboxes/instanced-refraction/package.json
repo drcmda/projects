@@ -1,0 +1,39 @@
+{
+  "name": "instanced-refraction",
+  "version": "1.0.0",
+  "description": "Diamon refraction material + instancing and vertex colors",
+  "keywords": [
+    "diamond",
+    "vertex-colors",
+    "refraction",
+    "instancing"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@react-three/drei": "9.30.3",
+    "@react-three/fiber": "8.7.3",
+    "@react-three/postprocessing": "2.6.2",
+    "@react-three/rapier": "0.6.8",
+    "@types/three": "0.144.0",
+    "leva": "0.9.31",
+    "nice-color-palettes": "3.0.0",
+    "r3f-perf": "6.4.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-scripts": "5.0.1",
+    "three": "0.144.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

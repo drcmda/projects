@@ -1,0 +1,46 @@
+{
+  "name": "ping-pong",
+  "version": "1.0.0",
+  "description": "Mini ping-pong implementation using cannon-physics.",
+  "keywords": [
+    "audio",
+    "game",
+    "cannon",
+    "physics"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@pmndrs/branding": "0.0.8",
+    "@react-three/cannon": "4.5.0",
+    "@react-three/drei": "8.4.0",
+    "@react-three/fiber": "7.0.24",
+    "@react-three/p2": "0.0.1",
+    "lerp": "1.0.3",
+    "lodash-es": "4.17.21",
+    "p2-es": "0.7.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "5.0.0",
+    "three": "0.136.0",
+    "three-stdlib": "2.6.4",
+    "valtio": "1.2.7",
+    "zustand": "3.6.9"
+  },
+  "devDependencies": {
+    "customize-cra": "^0.9.1",
+    "customize-cra-react-refresh": "^1.0.1",
+    "react-app-rewired": "^2.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

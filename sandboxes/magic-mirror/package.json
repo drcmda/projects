@@ -1,0 +1,32 @@
+{
+  "name": "magic-mirror",
+  "version": "1.0.0",
+  "description": "Rendering parallel scenes onto textured planes.",
+  "keywords": [
+    "mirror",
+    "fbo"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@react-three/drei": "8.15.0",
+    "@react-three/fiber": "7.0.26",
+    "@types/three": "0.128.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "5.0.0",
+    "three": "0.138.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

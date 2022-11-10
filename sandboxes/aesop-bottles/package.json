@@ -1,0 +1,21 @@
+{
+  "name": "aesop-bottles",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@react-spring/three": "9.3.1",
+    "@react-three/drei": "8.3.1",
+    "@react-three/fiber": "7.0.24",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "5.0.0",
+    "three": "0.135.0"
+  },
+  "keywords": [
+    "animation",
+    "aesop",
+    "gltf",
+    "reflections"
+  ],
+  "description": "Small experiment with ground reflections and interaction."
+}

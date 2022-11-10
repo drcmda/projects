@@ -1,0 +1,47 @@
+{
+  "name": "the-three-graces",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@react-three/drei": "9.11.0",
+    "@react-three/fiber": "8.0.17",
+    "lerp": "1.0.3",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-scripts": "5.0.1",
+    "three": "0.131.1"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "customize-cra": "^0.9.1",
+    "customize-cra-react-refresh": "^1.0.1",
+    "react-app-rewired": "^2.1.5",
+    "webpack-bundle-analyzer": "^3.6.0"
+  },
+  "keywords": [
+    "shadows",
+    "lights",
+    "gltf"
+  ],
+  "description": "Experimentaing with lights and shadows."
+}

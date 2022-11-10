@@ -1,0 +1,35 @@
+{
+  "name": "building-live-envmaps",
+  "version": "1.0.0",
+  "description": "Shows how to build declarative environment that are live and animated.",
+  "keywords": [
+    "lightformer"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@pmndrs/branding": "0.0.8",
+    "@react-three/drei": "9.40.0",
+    "@react-three/fiber": "8.9.1",
+    "@react-three/postprocessing": "2.7.0",
+    "@types/three": "0.144.0",
+    "lamina": "1.1.23",
+    "leva": "0.9.34",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-scripts": "5.0.1",
+    "three": "0.146.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

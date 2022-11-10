@@ -1,0 +1,37 @@
+{
+  "name": "performance-scaling",
+  "version": "1.0.0",
+  "description": "Playing with expensive lighting setups and prost-processing, then making it run fluid with the regress api.",
+  "keywords": [
+    "scaling",
+    "rect-area lights",
+    "performance",
+    "regression",
+    "adaptive"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@pmndrs/branding": "0.0.8",
+    "@react-three/drei": "9.17.3",
+    "@react-three/fiber": "8.2.2",
+    "@react-three/postprocessing": "2.5.5",
+    "postprocessing": "6.28.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-scripts": "5.0.1",
+    "three": "0.142.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

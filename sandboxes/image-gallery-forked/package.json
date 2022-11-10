@@ -1,0 +1,39 @@
+{
+  "name": "image-gallery",
+  "version": "1.0.0",
+  "description": "Stage a couple of frames with a reflective, blurred out ground.",
+  "keywords": [
+    "image",
+    "meshreflectormaterial"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@babel/core": "7.16.7",
+    "@pmndrs/branding": "0.0.8",
+    "@react-three/drei": "8.3.1",
+    "@react-three/fiber": "8.0.0-beta-04",
+    "@types/three": "0.136.1",
+    "babel-plugin-glsl": "1.0.0",
+    "babel-plugin-macros": "3.1.0",
+    "glsl-noise": "0.0.0",
+    "react": "18.0.0-rc.0",
+    "react-dom": "18.0.0-rc.0",
+    "react-scripts": "5.0.0",
+    "three": "0.135.0",
+    "uuid-by-string": "3.0.5",
+    "wouter": "2.8.0-alpha.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

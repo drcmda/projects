@@ -1,0 +1,29 @@
+@import url('https://rsms.me/inter/inter.css');
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: inter;
+  color: white;
+  background: #252530;
+  user-select: none;
+  -ms-touch-select: none;
+}
+
+span {
+  display: inline-block;
+  background: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+}

@@ -1,0 +1,35 @@
+{
+  "name": "jointwork-with-arc4g",
+  "version": "1.0.0",
+  "description": "Groundreflection, shaders and postprocessing.",
+  "keywords": [
+    "reflections",
+    "arc4g",
+    "shaders",
+    "gltf",
+    "animation"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@react-three/drei": "8.3.1",
+    "@react-three/fiber": "7.0.24",
+    "@react-three/postprocessing": "2.0.5",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "5.0.0",
+    "three": "0.135.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

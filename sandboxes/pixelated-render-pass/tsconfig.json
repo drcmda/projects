@@ -1,0 +1,16 @@
+{
+    "include": [
+        "./src/**/*"
+    ],
+    "compilerOptions": {
+        "strict": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "target": "es6",
+        "lib": [
+            "dom",
+            "esnext"
+        ],
+        "jsx": "react-jsx"
+    }
+}

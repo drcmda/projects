@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+}
+html,
+body,
+#root {
+  height: 100%;
+  cursor: none;
+}
+
+body {
+  background: rgb(255, 240, 246);
+  background: radial-gradient(circle, rgba(255, 240, 246, 1) 0%, rgba(249, 206, 224, 1) 35%, rgba(255, 163, 201, 1) 100%);
+}
